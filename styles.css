@@ -1,0 +1,105 @@
+.music-terms-container {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.music-terms-header {
+    margin-bottom: 10px;
+}
+
+.music-terms-header h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+}
+
+.music-terms-source {
+    font-size: 0.75em;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.music-terms-search {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.music-terms-search:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+}
+
+.music-terms-results {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.music-terms-hint {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 20px;
+}
+
+.music-terms-hint p {
+    margin: 5px 0;
+}
+
+.music-terms-no-result {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 20px;
+}
+
+.music-terms-count {
+    font-size: 0.8em;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.music-terms-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.music-terms-row {
+    padding: 8px 10px;
+    border-radius: 4px;
+    background: var(--background-secondary);
+    border-left: 3px solid var(--interactive-accent);
+}
+
+.music-terms-row:hover {
+    background: var(--background-secondary-alt);
+}
+
+.music-terms-term {
+    font-weight: 600;
+    color: var(--text-normal);
+    margin-bottom: 4px;
+    font-size: 0.95em;
+}
+
+.music-terms-meaning {
+    color: var(--text-muted);
+    font-size: 0.85em;
+    line-height: 1.4;
+}
+
+.music-terms-more {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.8em;
+    padding: 15px;
+    font-style: italic;
+}

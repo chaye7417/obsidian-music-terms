@@ -1,0 +1,10 @@
+{
+	"id": "music-terms",
+	"name": "音乐名词查询",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "在侧边栏快速查询音乐名词的中外文对照，数据来源于国家教育研究院",
+	"author": "chaye7417",
+	"authorUrl": "https://github.com/chaye7417",
+	"isDesktopOnly": false
+}
