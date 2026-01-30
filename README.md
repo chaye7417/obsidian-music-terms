@@ -75,7 +75,7 @@ npm run build
 
 ## 截图
 
-![音乐名词查询界面](https://github.com/chaye7417/obsidian-music-terms/raw/master/screenshot.png)
+![音乐名词查询界面](screenshot.png)
 
 ---
 
